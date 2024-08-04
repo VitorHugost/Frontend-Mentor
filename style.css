@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+body {
+    background: linear-gradient(90deg, #d3dfec 33.33%, #d5e1ef 33.33%);
+    background-size: 10% 100%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.qr-code {
+    background-color: #2C7DFA;
+    padding: 50px;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    padding: 15px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 10px 15px -5px rgba(0, 0, 0, 0.2);
+    max-width: 320px;
+}
+
+.container_text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    margin: 30px 10px 30px 10px;
+}
+
+.container_header {
+    font-weight: bold;
+    font-size: 22px;
+    color: #1F314F;
+}
+
+.container_description {
+    color: #68778D
+}
